@@ -2,6 +2,10 @@ import React from "react";
 import Card from "./Card";
 
 const CardList = ({ robots }) => {
+    // How to error out the view and get ErrorBoundary to display on the user side.
+    // if (true) {
+    //     throw new Error('Nooooo!');
+    // }
     return (
         <div>
             {
